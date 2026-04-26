@@ -29,13 +29,13 @@ require_once '../controllers/room_controller.php';
 
             <?php if (!$is_started): ?>
                 <h3 class="section-header">Manajemen Peserta</h3>
-                <form action="../actions/add_peserta.php" method="POST" class="chess-form" style="flex-direction: row; align-items: flex-end; max-width: 100%; margin-bottom: 2rem;">
-                    <div class="form-group" style="flex-grow: 1;">
-                        <label for="nama_peserta">Nama Lengkap Peserta</label>
-                        <input type="text" id="nama_peserta" name="nama_peserta" placeholder="Masukkan nama peserta..." required>
-                    </div>
+                <form action="../actions/add_peserta.php" method="POST" class="chess-form">
                     <input type="hidden" name="room_id" value="<?php echo $room_id; ?>"> 
-                    <button type="submit" class="btn-primary">Tambah Peserta</button>
+                    <label for="nama_peserta">Nama Lengkap Peserta</label>
+                    <div class="form-group" style="flex-grow: 1;">
+                        <input type="text" id="nama_peserta" name="nama_peserta" placeholder="Masukkan nama peserta..." required style="flex-grow: 1;">
+                        <button type="submit" class="btn-primary">Tambah Peserta</button>
+                    </div>
                 </form>
 
                 <?php if ($total_peserta >= 2): ?>

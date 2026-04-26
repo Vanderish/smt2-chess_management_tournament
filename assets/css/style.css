@@ -121,15 +121,16 @@ a:hover {
     flex-direction: column;
     gap: 1.2rem;
     max-width: 500px;
+    max-width: 100%; 
+    margin-bottom: 2rem;
 }
 
 .form-group {
     display: flex;
-    flex-direction: column;
     gap: 0.5rem;
 }
 
-.form-group label {
+.chess-form label {
     font-size: 0.9rem;
     color: var(--text-muted);
 }
