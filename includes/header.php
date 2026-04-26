@@ -1,8 +1,5 @@
 <?php
-// Pastikan session dimulai agar kita bisa mengecek status login panitia
 session_start();
-
-// Deteksi base URL agar link tidak rusak saat dipanggil dari folder views/
 $base_url = 'http://' . $_SERVER['HTTP_HOST'];
 ?>
 <header class="site-header">
