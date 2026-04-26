@@ -1,0 +1,6 @@
+chess_tournament.sql
+*.sql
+config/database.php
+.vscode/
+.DS_Store
+Thumbs.db
