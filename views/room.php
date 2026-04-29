@@ -32,7 +32,7 @@ require_once '../controllers/room_controller.php';
                 <form action="../actions/add_peserta.php" method="POST" class="chess-form">
                     <input type="hidden" name="room_id" value="<?php echo $room_id; ?>"> 
                     <label for="nama_peserta">Nama Lengkap Peserta</label>
-                    <div class="form-group" style="flex-grow: 1;">
+                    <div class="room-group" style="flex-grow: 1;">
                         <input type="text" id="nama_peserta" name="nama_peserta" placeholder="Masukkan nama peserta..." required style="flex-grow: 1;">
                         <button type="submit" class="btn-primary">Tambah Peserta</button>
                     </div>

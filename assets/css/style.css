@@ -127,6 +127,7 @@ a:hover {
 
 .form-group {
     display: flex;
+    flex-direction: column;
     gap: 0.5rem;
 }
 
@@ -136,6 +137,7 @@ a:hover {
 }
 
 .form-group input, 
+.room-group input,
 .form-group select {
     background-color: var(--bg-main);
     border: 1px solid var(--border-color);
@@ -288,6 +290,10 @@ a:hover {
 }
 .winner-text {
     color: #4CAF50; font-weight: bold; font-size: 0.8rem; display: block; margin-top: 0.5rem;
+}
+.room-group {
+    display: flex;
+    gap: 0.5rem;
 }
 
 /* --- RESPONSIVE --- */
