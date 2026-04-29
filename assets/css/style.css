@@ -93,14 +93,21 @@ a:hover {
     flex-grow: 1;
     padding: 2.5rem 5%;
     display: flex;
+    text-align: center;
     flex-direction: column;
-    gap: 2rem; /* Jarak antar section */
+    gap: 2rem;
 }
 
 .section-header {
     border-bottom: 2px solid var(--border-color);
     padding-bottom: 0.8rem;
     margin-bottom: 1.5rem;
+    color: var(--accent-peach);
+}
+
+.main-title{
+    font-size: 4rem;
+    font-weight: bold;
     color: var(--accent-peach);
 }
 
@@ -294,6 +301,7 @@ a:hover {
 .room-group {
     display: flex;
     gap: 0.5rem;
+    flex-grow: 1;
 }
 
 /* --- RESPONSIVE --- */
